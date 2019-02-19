@@ -1,0 +1,117 @@
+::selection {
+    @apply bg-indigo;
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+/* #landing-container {
+  background-image: url('../images/blob.svg');
+  background-position: right -15rem top -15rem;
+} */
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+@tailwind preflight;
+
+/**
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
+@tailwind components;
+
+body {
+    @apply bg-indigo-dark;
+}
+
+p {
+    @apply leading-normal mb-6 text-lg;
+}
+
+h1 {
+    @apply font-serif font-bold text-5xl leading-tight;
+}
+
+h2 {
+    @apply font-serif font-bold text-4xl mt-20 mb-8 leading-normal;
+}
+
+h3 {
+    @apply font-serif font-semibold text-2xl mb-10 leading-normal;
+}
+
+h4 {
+    @apply font-serif font-medium text-2xl mb-10 leading-normal;
+}
+
+.button {
+    @apply bg-blue-light text-white uppercase tracking-wide px-8 py-4 rounded no-underline text-sm shadow-md font-semibold;
+}
+
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ *
+ * Example:
+ *
+ * .btn { ... }
+ * .form-input { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "components/buttons";
+ * @import "components/forms";
+ */
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+@tailwind utilities;
+
+.rotate-left {
+    transform: rotate(-5deg);
+}
+
+.rotate-right {
+    transform: rotate(5deg);
+}
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example :
+ *
+ * .bg-pattern-graph-paper { ... }
+ * .skew-45 { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "utilities/background-patterns";
+ * @import "utilities/skew-transforms";
+ */
