@@ -132,14 +132,13 @@
 
         <p>
             <strong>
-            But that is difficult to accomplish with a passive, video-based
-            course.
+            But that is difficult to accomplish with a passive, video-based course alone.
           </strong>
         </p>
 
         <p>
-            Let’s take an online programming course as an example. This is likely that path that many of your students are taking, and
-            if you’ve taken any online courses in the past, this process might be familiar to you as well:
+            Let’s look at how the online learning process happens for most students. This is likely that path that many of your students
+            are taking, and if you’ve taken any online courses in the past, this process might be familiar to you as well:
         </p>
         <section class="-mx-4">
             <div class="flex px-4 pb-20 pt-20 items-center">
@@ -186,7 +185,7 @@
         </section>
         <p>
             Current online course platforms are fantastic at delivering the actual content, but an efficient system for organizing and
-            executing an effective assignment -> feedback loop is missing.
+            executing an effective assignment/feedback loop is missing.
         </p>
 
         <p>
@@ -210,7 +209,7 @@
         <h2>There is a better way to teach online</h2>
 
         <p>
-            In order to learn a complicated, high-value skill like coding or design effectively, we need a few things:
+            In order to learn a complicated, high-value, career-changing skill effectively, we need a few things:
         </p>
 
         <section class="flex flex-wrap -mx-4">
@@ -264,8 +263,8 @@
         <h2>Why existing tools aren't ideal</h2>
 
         <p>
-            The main problem with doing it this way is that none of these tools were explicitly designed to work in tandem with the others
-            as part of a singular process.
+            The main problem with doing it this way is that none of these tools like Slack, Zoom, Drip, or Typeform were explicitly designed
+            to work in tandem with the others as part of a singular process.
         </p>
 
         <p>
@@ -303,10 +302,10 @@
             It works by taking all of the concepts we discussed above and merging them into one cohesive platform with features designed
             to facilitate an effective feedback loop on the part of both instructor and student.
         </p>
-        <p>Here's the process in a nutshell.</p>
-        <section class="mt-10 mb-20">
+        <p class="text-grey font-serif text-3xl text-center">Here's the process in a nutshell:</p>
+        <section class="mb-20">
             <div class="pb-10">
-                <h2>Step 1</h2>
+                <h2 class="mt-0">Step 1</h2>
                 <h3 class="uppercase tracking-wide text-indigo font-sans">Enroll Your Students</h3>
                 <p>Enroll students individually or all at once using the email import tool. Cognition will then atuomatically
                     send out a unique registration email to each student to set up their account. You can create as many
@@ -401,8 +400,8 @@
                 learning specific content that can directly improve my career.
             </p>
             <p>
-                But along the way, I noticed that it's very hard to apply knowledge gained from an online course without an effective system
-                for applying the knwoledge to a real world project, and then getting feedback on that work from the instructor.
+                But along the way, I noticed that it's very hard to truly learn from an online course without an effective system for applying
+                the knowledge to a real world project, and then getting feedback on that work from the instructor.
             </p>
             <p>
                 I think the process could be made far better and more effective for both students and instructors.
