@@ -8,9 +8,9 @@ html {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 /* #landing-container {
@@ -44,15 +44,15 @@ body {
 }
 
 p {
-    @apply leading-normal mb-6 text-lg;
+    @apply leading-normal mb-6 text-base;
 }
 
 h1 {
-    @apply font-serif font-bold text-5xl leading-tight;
+    @apply font-serif text-4xl leading-tight;
 }
 
 h2 {
-    @apply font-serif font-bold text-4xl mt-20 mb-8 leading-normal;
+    @apply font-serif text-3xl mt-12 mb-4 leading-normal;
 }
 
 h3 {

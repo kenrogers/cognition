@@ -1,51 +1,60 @@
 @extends('layouts.app') 
 @section('content')
 <nav class="flex justify-between px-10 pt-10">
-    <h3 class="uppercase tracking-wide font-bold">Cognition</h3>
+    <h3 class="uppercase tracking-wide font-bold text-grey-darkest">Cognition</h3>
     <a class="text-indigo no-underline" href="/login">Login <i class="fa fa-chevron-right"></i></a>
 </nav>
-<div id="landing-container" class="bg-no-repeat pt-10 text-grey-darkest">
-    <section class="flex flex-col md:w-1/2 mx-auto">
+<div id="landing-container" class="bg-no-repeat pt-10 text-grey-darkest max-w-full">
 
-        <h1 class="font-bold mb-10">
+    <section class="max-w-md mx-auto px-5">
+        <h1 class="mb-10">
             Get your students engaged in your online course, without drowning in work
         </h1>
-        <h2 class="mt-0">This is Dave.</h2>
-        <img src="/images/photographer.jpg" alt="Man taking pictures on a city street." class="border-white border-8 rounded shadow-md mb-2 rotate-right mt-3"
-        />
-        <p>Dave has a problem.</p>
+        <p class="font-bold">So you made an online course</p>
+        {{--
+        <div class="flex items-center">
+            <h2 class="mt-0 flex-1 text-center mb-0 flex items-center">This is Dave <i class="fa fa-arrow-right text-5xl ml-8"></i></h2>
+            <div class="flex-1">
+                <div class="border-white border-8 rounded shadow-md mb-2 rotate-right mt-3">
+                    <img src="/images/photographer.jpg" alt="Man taking pictures on a city street." />
+                    <p class="text-center m-2 font-handwritten">Hi, I'm Dave</p>
+                </div>
+            </div>
+        </div> --}}
+        <p>But now you have a problem.</p>
+        {{--
         <p>
             Dave is a photographer. When he's not taking sweet photographs, Dave teaches an online course on photography.
+        </p> --}}
+        <p>
+            Your students don't seem to be very engaged in your new course course. It's too passive.
         </p>
         <p>
-            But he's noticed that his students don't seem to be very engaged in the course. It's too passive.
+            You made your videos and gave your students assignments to work on, but you felt like they needed more to be able to <em>really</em>            learn the subject matter.
         </p>
         <p>
-            He made his videos and gave his students assignments to work on, but he felt like they needed more to be able to <em>really</em>            learn photography.
-        </p>
-        <p>
-            So Dave set up a Slack group for all of the students to interact and post their assignments to get feedback. Then he started
+            So you set up a Slack group for all of the students to interact and post their assignments to get feedback. Then you started
             getting overwhelmed with the amount of work it was taking to provide good feedback to all of these students.
         </p>
         <p>
             Also, people weren't actually completing the entire course, they would get about halfway through, and then just sort of disappear.
         </p>
         <p>
-            So he set up an email system to send out to all of his students to submit their assignments and complete the lessons, and
-            he manually creates and sends reminder emails to get people to submit there assignments.
+            So you set up an email system to send out to all of your students to submit their assignments and complete the lessons, and
+            you manually create and send reminder emails to get people to submit their assignments.
         </p>
         <p>
-            This is better, but now he has to juggle multiple tools and remember when to send out the reminder emails. Since tools like
-            Slack and email autoresponders aren't made for this workflow, it's hard for him to keep everything organized.
+            This is better, but now you have to juggle multiple tools and remember when to send out the reminder emails. Since tools
+            like Slack and email autoresponders aren't made for this workflow, it's hard for you to keep everything organized.
         </p>
-        <p>Dave also integrates live video calls into his course, and provides feedback on those. So he has to use another tool
-            to set those up and send reminder emails.</p>
+        <p>You also integrate live video calls into your course, and provide feedback on those. So now you have to use another
+            tool to set those up and send reminder emails.</p>
         <p>
-            He created this course in order to teach others his craft and build a solid, sustainable business for himself, but he can't
-            seem to find the balance between helping his students master the craft and drowning in work because of an inefficient
-            workflow.
+            You created this course in order to teach others your craft and build a solid, sustainable business for yourself, but you
+            can't seem to find the balance between helping your students master the craft and drowning in work because of
+            an inefficient workflow.
         </p>
-        <h2>Dave has a problem, and he's not alone.</h2>
+        <h2>You've got a problem, and <em>you are not alone.</em></h2>
         <p>
             If you’re a course creator, this process might sound familiar. <strong>The online course creation workflow is broken.</strong>
         </p>
@@ -100,22 +109,22 @@
             We forgot that the path to a successful course, for both our students and ourselves, is actually teaching:
         </p>
 
-        <ul class="pl-0 fa-ul mb-3 ml-0">
+        <ul class="fa-ul mb-6 ml-5">
             <li class="flex items-center mb-3">
                 <span class="fa-li"><i class="fas fa-bolt text-indigo-dark"></i></span>
-                <p class="mb-0">Providing feedback</p>
+                <p class="mb-0 pl-2">Providing feedback</p>
             </li>
             <li class="flex items-center mb-3">
                 <span class="fa-li"><i class="fas fa-bolt text-indigo-dark"></i></span>
-                <p class="mb-0">Helping them overcome challenges</p>
+                <p class="mb-0 pl-2">Helping them overcome challenges</p>
             </li>
             <li class="flex items-center mb-3">
                 <span class="fa-li"><i class="fas fa-bolt text-indigo-dark"></i></span>
-                <p class="mb-0">Fostering a community</p>
+                <p class="mb-0 pl-2">Fostering a community</p>
             </li>
             <li class="flex items-center mb-3">
                 <span class="fa-li"><i class="fas fa-bolt text-indigo-dark"></i></span>
-                <p class="mb-0">Keeping people accountable</p>
+                <p class="mb-0 pl-2">Keeping people accountable</p>
             </li>
         </ul>
 
@@ -140,49 +149,51 @@
             Let’s look at how the online learning process happens for most students. This is likely that path that many of your students
             are taking, and if you’ve taken any online courses in the past, this process might be familiar to you as well:
         </p>
-        <section class="-mx-4">
-            <div class="flex px-4 pb-20 pt-20 items-center">
-                <img src="images/programmer.svg" alt="Programmer working at computers" class="w-1/2" />
-                <div class="flex px-8 -mr-8">
-                    <div class="flex-column">
-                        <p class="text-2xl font-bold leading-tight">
-                            First, you sign up for the course, super excited and motivated to dive in.
-                        </p>
-                    </div>
+    </section>
+    <section class="mx-auto max-w-xl">
+        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
+            <img src="images/programmer.svg" alt="Programmer working at computers" class="w-1/4" />
+            <div class="flex px-8 -mr-8">
+                <div class="flex-column">
+                    <p class="text-2xl">
+                        First, you sign up for the course, super excited and motivated to dive in.
+                    </p>
                 </div>
             </div>
-            <div class="flex px-4 pb-20 pt-20 items-center">
-                <img src="images/wireframe.svg" alt="Programmer working at computers" class="w-1/2" />
-                <div class="flex px-8 -mr-8">
-                    <div class="flex-column">
-                        <p class="text-2xl font-bold leading-tight">
-                            Next, you start following along with the sample project, feeling great about how much you're learning. Maybe you even finish
-                            the course.
-                        </p>
-                    </div>
+        </div>
+        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
+            <img src="images/wireframe.svg" alt="Programmer working at computers" class="w-1/4" />
+            <div class="flex px-8 -mr-8">
+                <div class="flex-column">
+                    <p class="text-2xl">
+                        Next, you start following along with the sample project, feeling great about how much you're learning. Maybe you even finish
+                        the course.
+                    </p>
                 </div>
             </div>
-            <div class="flex px-4 pb-20 pt-20 items-center">
-                <img src="images/blank.svg" alt="Artist staring at blank canvas" class="w-1/2" />
-                <div class="flex px-8 -mr-8">
-                    <div class="flex-column">
-                        <p class="text-2xl font-bold leading-tight">
-                            Then, after the course is over, you immediately forget everything you learned and can't apply it to real-world work.
-                        </p>
-                    </div>
+        </div>
+        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
+            <img src="images/blank.svg" alt="Artist staring at blank canvas" class="w-1/4" />
+            <div class="flex px-8 -mr-8">
+                <div class="flex-column">
+                    <p class="text-2xl">
+                        Then, after the course is over, you immediately forget everything you learned and can't apply it to real-world work.
+                    </p>
                 </div>
             </div>
-            <div class="flex px-4 pb-20 pt-20 items-center">
-                <img src="images/timeline.svg" alt="Man staring at different screens" class="w-1/2" />
-                <div class="flex px-8 -mr-8">
-                    <div class="flex-column">
-                        <p class="text-2xl font-bold leading-tight">
-                            Finally, you rinse and repeat the same cycle, over and over again, with different courses.
-                        </p>
-                    </div>
+        </div>
+        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
+            <img src="images/timeline.svg" alt="Man staring at different screens" class="w-1/4" />
+            <div class="flex px-8 -mr-8">
+                <div class="flex-column">
+                    <p class="text-2xl">
+                        Finally, you rinse and repeat the same cycle, over and over again, with different courses.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="max-w-md mx-auto px-5">
         <p>
             Current online course platforms are fantastic at delivering the actual content, but an efficient system for organizing and
             executing an effective assignment/feedback loop is missing.
@@ -208,53 +219,56 @@
 
         <h2>There is a better way to teach online</h2>
 
-        <p>
+        <p class="mb-8">
             In order to learn a complicated, high-value, career-changing skill effectively, we need a few things:
         </p>
-
-        <section class="flex flex-wrap -mx-4">
+    </section>
+    <section class="mx-auto max-w-xl">
+        <section class="flex flex-wrap -mx-4 mb-4">
             <div class="w-1/2 px-4 pb-8">
-                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center mb-2">
+                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-book text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
 
-                <h3 class="text-2xl mb-3">Deliberate Practice</h3>
-                <p>
+                <h3 class="text-2xl mb-0">Deliberate Practice</h3>
+                <p class="mb-0">
                     We need to be able to incrementally push our comfort zone further and further by starting at the beginning and practicing
                     things that are slightly above our skill level in an organized, linear way.
                 </p>
             </div>
             <div class="w-1/2 px-4 pb-8">
-                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center mb-2">
+                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-comments text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
-                <h3 class="text-2xl mb-3">Specific Feedback</h3>
-                <p>
+                <h3 class="text-2xl mb-0">Specific Feedback</h3>
+                <p class="mb-0">
                     By incrementally pushing our comfort zone, we will make mistakes. Specific feedback from someone more experienced than ourselves
                     is necessary to learn from these mistakes and increase our skill level.
                 </p>
             </div>
             <div class="w-1/2 px-4 pb-8">
-                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center mb-2">
+                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-bullseye text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
-                <h3 class="text-2xl mb-3">Relevance</h3>
-                <p>
+                <h3 class="text-2xl mb-0">Relevance</h3>
+                <p class="mb-0">
                     When we apply what we are learning to a real-world project that we are invested in, the knowledge stays in our head much
                     better than if we simply followed along with a pre-determined sample project.
                 </p>
             </div>
             <div class="w-1/2 px-4 pb-8">
-                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center mb-2">
+                <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-lock text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
-                <h3 class="text-2xl mb-3">Accountability</h3>
-                <p>
+                <h3 class="text-2xl mb-0">Accountability</h3>
+                <p class="mb-0">
                     Passively consumed courses are easy to stop taking. By staying accountable to someone else to complete things on time and
                     make consistent progress, we increase our chances of completing a course.
                 </p>
             </div>
         </section>
+    </section>
+    <section class="max-w-md mx-auto px-5">
         <p>
             As an online course creator, you’ve probably learned a lot of this already through teaching your courses, but, due to the
             problems discussed above, actually implementing it effectively is really hard.
@@ -304,18 +318,18 @@
         </p>
         <p class="text-grey font-serif text-3xl text-center">Here's the process in a nutshell:</p>
         <section class="mb-20">
-            <div class="pb-10">
-                <h2 class="mt-0">Step 1</h2>
-                <h3 class="uppercase tracking-wide text-indigo font-sans">Enroll Your Students</h3>
+            <div class="pb-16">
+                <h2 class="my-0 text-indigo font-sans">Step 1</h2>
+                <h3 class="mb-4">Enroll Your Students</h3>
                 <p>Enroll students individually or all at once using the email import tool. Cognition will then atuomatically
                     send out a unique registration email to each student to set up their account. You can create as many
                     different courses and cohorts as you want, so if you have multiple cohorts of students going through
                     the course on different schedules, you can separate them out.</p>
                 <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
             </div>
-            <div class="pb-10">
-                <h2>Step 2</h2>
-                <h3 class="uppercase tracking-wide text-indigo font-sans">Set Up Your Course Schedule</h3>
+            <div class="pb-16">
+                <h2 class="my-0 text-indigo font-sans">Step 2</h2>
+                <h3 class="mb-4">Set Up Your Course Schedule</h3>
                 <p>
                     Choose the required deadlines for assignments and set up when you'll be conducting live calls. Then choose when you want
                     to automatically send reminders to students to submit assignments and about the time and date of the
@@ -325,9 +339,9 @@
                     as it is submitted to you? <a href="#ondemand" class="text-indigo no-underline border-b-4 border-indigo hover:text-indigo-lighter hover:border-indigo-lighter transition-fast">Make your course an on demand course</a>.</p>
                 <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
             </div>
-            <div class="pb-10">
-                <h2>Step 3</h2>
-                <h3 class="uppercase tracking-wide text-indigo font-sans">Student Submits Assignment</h3>
+            <div class="pb-16">
+                <h2 class="my-0 text-indigo font-sans">Step 3</h2>
+                <h3 class="mb-4">Student Submits Assignment</h3>
                 <p>
                     Use the form builder to construct exactly how students should submit their assignments. Then you can either link them to
                     that form, or embed it inside the lesson of your online teaching platform. Students watch the lesson,
@@ -335,9 +349,9 @@
                 </p>
                 <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
             </div>
-            <div class="pb-10">
-                <h2>Step 4</h2>
-                <h3 class="uppercase tracking-wide text-indigo font-sans">Conduct a Live Call</h3>
+            <div class="pb-16">
+                <h2 class="my-0 text-indigo font-sans">Step 4</h2>
+                <h3 class="mb-4">Conduct a Live Call</h3>
                 <p>
                     When the student submits their assignment, it will be automatically added to the feedback queue in the order it was received
                     for you to review. When it's time to deliver the live call, the queue will be displayed in the interface,
@@ -347,8 +361,8 @@
                 <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
             </div>
             <div>
-                <h2>Step 5</h2>
-                <h3 class="uppercase tracking-wide text-indigo font-sans">Recording Delivered</h3>
+                <h2 class="my-0 text-indigo font-sans">Step 5</h2>
+                <h3 class="mb-4">Recording Delivered</h3>
                 <p>
                     The recording with feedback timestamps is automatically delivered to each student enrolled in the course after the call ends.
                     Students can then implement the provided feedback before starting work on the next assignment.
@@ -369,11 +383,11 @@
                 that facilitates effective learning.</p>
         </section>
         <section class="my-20 text-center">
-            <h4 class="font-sans">
+            <p class="text-xl">
                 Cognition is currently in the early stages of design and development. If you’re interested in using it to help improve your
                 online courses, sign up to receive updates on the progress and opportunities for beta testing (and associated
                 discounts).
-            </h4>
+            </p>
             <a href="#signup" class="button hover:bg-blue-lighter transition-fast transition-property-bg">
             Sign Up
           </a>
@@ -413,9 +427,9 @@
         <div class="md:w-1/2 mx-auto">
             <p class="text-indigo-lightest text-xl">
                 Cognition is still in the very early stages of ideation and development, and I’m looking for frustrated course creators that
-                want a better way to teach online to help me flesh out the product and beta test it. If that’s you, enter
-                your email below and I’ll be in touch soon (the real me, not an autoresponder) about what’s next, how you
-                can help, and what’s in it for you.
+                want a better way to teach online to help me flesh out the product and beta test it.</p>
+            <p class="text-indigo-lightest text-xl">If that’s you, enter your email below and I’ll be in touch soon (the real me, not an autoresponder) about what’s
+                next, how you can help, and what’s in it for you.
             </p>
             <form action="https://kenrogers.us14.list-manage.com/subscribe/post?u=93c5030a0f37ecd85d7a9d3d7&amp;id=c19b7d6e7a" method="post"
                 id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate flex" target="_blank" novalidate>

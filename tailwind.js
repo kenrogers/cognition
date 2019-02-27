@@ -46,10 +46,10 @@ let colors = {
     transparent: 'transparent',
 
     black: '#1f2933',
-    'grey-darkest': '#323f4b',
+    'grey-darkest': '#303864',
     'grey-darker': '#3e4c59',
     'grey-dark': '#52606d',
-    grey: '#616e7c',
+    grey: '#838695',
     'grey-light': '#9aa5b1',
     'grey-lighter': '#cbd2d9',
     'grey-lightest': '#e4e7eb',
@@ -218,6 +218,7 @@ module.exports = {
             'Georgia',
             'serif'
         ],
+        handwritten: ['marydale'],
         mono: [
             'Menlo',
             'Monaco',
@@ -303,7 +304,7 @@ module.exports = {
     leading: {
         none: 1,
         tight: 1.25,
-        normal: 1.5,
+        normal: 1.7,
         loose: 2
     },
 
