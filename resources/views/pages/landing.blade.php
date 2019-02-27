@@ -1,6 +1,6 @@
 @extends('layouts.app') 
 @section('content')
-<nav class="flex justify-between px-10 pt-10">
+<nav class="flex justify-between px-10 pt-10 items-baseline">
     <h3 class="uppercase tracking-wide font-bold text-grey-darkest">Cognition</h3>
     <a class="text-indigo no-underline" href="/login">Login <i class="fa fa-chevron-right"></i></a>
 </nav>
@@ -150,43 +150,43 @@
             are taking, and if you’ve taken any online courses in the past, this process might be familiar to you as well:
         </p>
     </section>
-    <section class="mx-auto max-w-xl">
-        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
-            <img src="images/programmer.svg" alt="Programmer working at computers" class="w-1/4" />
-            <div class="flex px-8 -mr-8">
+    <section class="mx-auto max-w-xl px-5">
+        <div class="flex flex-col md:flex-row px-4 py-10 items-start md:items-center shadow-md rounded mb-10">
+            <img src="images/programmer.svg" alt="Programmer working at computers" class="w-1/2 md:w-1/4" />
+            <div class="flex px-0 md:px-8 md:-mr-8 -mr-0">
                 <div class="flex-column">
-                    <p class="text-2xl">
+                    <p class="text-xl md:text-2xl">
                         First, you sign up for the course, super excited and motivated to dive in.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
-            <img src="images/wireframe.svg" alt="Programmer working at computers" class="w-1/4" />
-            <div class="flex px-8 -mr-8">
+        <div class="flex flex-col md:flex-row px-4 py-10 items-start md:items-center shadow-md rounded mb-10">
+            <img src="images/wireframe.svg" alt="Programmer working at computers" class="w-1/2 md:w-1/4" />
+            <div class="flex px-0 md:px-8 md:-mr-8 -mr-0">
                 <div class="flex-column">
-                    <p class="text-2xl">
+                    <p class="text-xl md:text-2xl">
                         Next, you start following along with the sample project, feeling great about how much you're learning. Maybe you even finish
                         the course.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
-            <img src="images/blank.svg" alt="Artist staring at blank canvas" class="w-1/4" />
-            <div class="flex px-8 -mr-8">
+        <div class="flex flex-col md:flex-row px-4 py-10 items-start md:items-center shadow-md rounded mb-10">
+            <img src="images/blank.svg" alt="Artist staring at blank canvas" class="w-1/2 md:w-1/4" />
+            <div class="flex px-0 md:px-8 md:-mr-8 -mr-0">
                 <div class="flex-column">
-                    <p class="text-2xl">
+                    <p class="text-xl md:text-2xl">
                         Then, after the course is over, you immediately forget everything you learned and can't apply it to real-world work.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="flex px-4 py-10 items-center shadow-md rounded mb-10">
-            <img src="images/timeline.svg" alt="Man staring at different screens" class="w-1/4" />
-            <div class="flex px-8 -mr-8">
+        <div class="flex flex-col md:flex-row px-4 py-10 items-start md:items-center shadow-md rounded mb-10">
+            <img src="images/timeline.svg" alt="Man staring at different screens" class="w-1/2 md:w-1/4" />
+            <div class="flex px-0 md:px-8 md:-mr-8 -mr-0">
                 <div class="flex-column">
-                    <p class="text-2xl">
+                    <p class="text-xl md:text-2xl">
                         Finally, you rinse and repeat the same cycle, over and over again, with different courses.
                     </p>
                 </div>
@@ -223,9 +223,9 @@
             In order to learn a complicated, high-value, career-changing skill effectively, we need a few things:
         </p>
     </section>
-    <section class="mx-auto max-w-xl">
+    <section class="mx-auto md:max-w-xl max-w-full px-5">
         <section class="flex flex-wrap -mx-4 mb-4">
-            <div class="w-1/2 px-4 pb-8">
+            <div class="md:w-1/2 w-full px-4 pb-8">
                 <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-book text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
@@ -236,7 +236,7 @@
                     things that are slightly above our skill level in an organized, linear way.
                 </p>
             </div>
-            <div class="w-1/2 px-4 pb-8">
+            <div class="md:w-1/2 w-full px-4 pb-8">
                 <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-comments text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
@@ -246,7 +246,7 @@
                     is necessary to learn from these mistakes and increase our skill level.
                 </p>
             </div>
-            <div class="w-1/2 px-4 pb-8">
+            <div class="md:w-1/2 w-full px-4 pb-8">
                 <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-bullseye text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
@@ -256,7 +256,7 @@
                     better than if we simply followed along with a pre-determined sample project.
                 </p>
             </div>
-            <div class="w-1/2 px-4 pb-8">
+            <div class="md:w-1/2 w-full px-4 pb-8">
                 <div class="bg-indigo-lightest p-2 rounded-full w-8 h-8 flex justify-center items-center ">
                     <i class="fa fa-lock text-indigo-dark bg-indigo-lightest rounded-full"></i>
                 </div>
@@ -383,18 +383,18 @@
                 that facilitates effective learning.</p>
         </section>
         <section class="my-20 text-center">
-            <p class="text-xl">
+            <p class="md:text-xl text-lg mb-4">
                 Cognition is currently in the early stages of design and development. If you’re interested in using it to help improve your
                 online courses, sign up to receive updates on the progress and opportunities for beta testing (and associated
                 discounts).
             </p>
-            <a href="#signup" class="button hover:bg-blue-lighter transition-fast transition-property-bg">
-            Sign Up
-          </a>
+                <a href="#signup" class="button hover:bg-blue-lighter transition-fast transition-property-bg inline-block">
+                    Sign Up
+                </a>
         </section>
         <section class="my-20">
             <h2>Who's behind this?</h2>
-            <img class="rotate-left max-w-md m-auto block mb-20 border-white border-8 rounded shadow-md" src="images/family.jpg" alt="Ken Rogers"
+            <img class=" max-w-full rotate-left md:w-1/2 sm:w-full mb-10 ml-0 border-white border-8 rounded shadow-md float-right md:ml-4 md:mb-4" src="images/family.jpg" alt="Ken Rogers"
             />
             <p>
                 My name is Ken Rogers. That's my wife Chelsea and son Joe with me.
@@ -423,18 +423,18 @@
             <p>That’s why I’m building Cognition.</p>
         </section>
     </section>
-    <section class="bg-indigo-darkest w-full py-32" id="signup">
+    <section class="bg-indigo-darkest w-full py-32 px-5" id="signup">
         <div class="md:w-1/2 mx-auto">
-            <p class="text-indigo-lightest text-xl">
+            <p class="text-indigo-lightest text-lg md:text-xl">
                 Cognition is still in the very early stages of ideation and development, and I’m looking for frustrated course creators that
                 want a better way to teach online to help me flesh out the product and beta test it.</p>
-            <p class="text-indigo-lightest text-xl">If that’s you, enter your email below and I’ll be in touch soon (the real me, not an autoresponder) about what’s
+            <p class="text-indigo-lightest text-lg md:text-xl">If that’s you, enter your email below and I’ll be in touch soon (the real me, not an autoresponder) about what’s
                 next, how you can help, and what’s in it for you.
             </p>
             <form action="https://kenrogers.us14.list-manage.com/subscribe/post?u=93c5030a0f37ecd85d7a9d3d7&amp;id=c19b7d6e7a" method="post"
-                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate flex" target="_blank" novalidate>
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate md:flex" target="_blank" novalidate>
 
-                <input type="email" value="" name="EMAIL" class="required email rounded rounded-r-none shadow-md w-full py-4 px-6 text-grey-darker focus:outline-none bg-indigo-lightest"
+                <input type="email" value="" name="EMAIL" class="required email rounded md:rounded-r-none shadow-md w-full py-4 px-6 text-grey-darker focus:outline-none bg-indigo-lightest mb-4 md:mb-0"
                     id="mce-EMAIL">
                 <div id="mce-responses" class="clear">
                     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -442,7 +442,7 @@
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_93c5030a0f37ecd85d7a9d3d7_c19b7d6e7a" tabindex="-1" value=""></div>
-                <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="bg-indigo hover:bg-indigo-light transition-fast transition-propery-bg text-white uppercase tracking-wide px-8 py-4 rounded rounded-l-none no-underline text-sm shadow-md font-semibold w-1/3">
+                <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="bg-indigo hover:bg-indigo-light transition-fast transition-propery-bg text-white uppercase tracking-wide px-8 py-4 rounded md:rounded-l-none no-underline text-sm shadow-md font-semibold md:w-1/3">
             </form>
         </div>
     </section>

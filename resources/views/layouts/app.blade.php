@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <main class="font-sans bg-white" id="app">
+    <main class="font-sans bg-white text-grey-darkest" id="app">
         @yield('content')
     </main>
 </body>

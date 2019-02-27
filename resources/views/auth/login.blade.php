@@ -8,7 +8,7 @@
         <form method="POST" action="{{ route('login') }}">
             @csrf
         <label for="email" class="text-sm text-grey uppercase tracking-wide">Email</label>
-        <input class="p-3 mt-1 mb-5 shadow-inner rounded border border-grey-lighter w-full focus:outline-none" id="email" type="email" name="email" required autofocus />
+        <input class="p-3 mt-1 mb-5 shadow-inner rounded border border-grey-lighter w-full focus:outline-none {{ $errors->has('password') ? 'border-red bg-red-lightest' : '' }}" id="email" type="email" name="email" required autofocus />
 
         <div class="flex justify-between items-end">
         <label for="password" class="text-sm text-grey uppercase tracking-wide">Password</label><span class="ml-3 text-xs text-indigo"><a class="text-indigo no-underline" href="{{ route('password.request') }}">Forgot?</a></div>

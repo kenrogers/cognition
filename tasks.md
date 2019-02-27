@@ -1,4 +1,4 @@
-# Todos
+# Development
 
 -   Switch images to use Cloudinary
 -   Integrate PurgeCSS
@@ -10,3 +10,6 @@
 -   Add assignment creation feature
 -   Add assignment submission feature
 -   Add feedback notification feature
+
+# Design
+-   Design is too minimal, needs more color
