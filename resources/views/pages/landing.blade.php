@@ -1,16 +1,16 @@
 @extends('layouts.app') 
 @section('content')
-<nav class="flex justify-between px-10 pt-10 items-baseline">
+{{-- <nav class="flex justify-between px-10 pt-10 items-baseline">
     <h3 class="uppercase tracking-wide font-bold text-grey-darkest">Cognition</h3>
     <a class="text-indigo no-underline" href="/login">Login <i class="fa fa-chevron-right"></i></a>
-</nav>
+</nav> --}}
 <div id="landing-container" class="bg-no-repeat pt-10 text-grey-darkest max-w-full">
 
     <section class="max-w-md mx-auto px-5">
-        <h1 class="mb-10">
-            Get your students engaged in your online course, without drowning in work
+        <h1 class="mb-10 font-normal">
+            Online courses are broken
         </h1>
-        <p class="font-bold">So you made an online course</p>
+        <p class="font-bold">So you made an online course...</p>
         {{--
         <div class="flex items-center">
             <h2 class="mt-0 flex-1 text-center mb-0 flex items-center">This is Dave <i class="fa fa-arrow-right text-5xl ml-8"></i></h2>
@@ -79,7 +79,7 @@
             them further their career by learning an in-demand skill, but they just don’t seem to be engaged and taking action
             on the content.
         </p>
-        <h2>Online courses are in crisis</h2>
+        <h2>We need to revisit how we learn and teach online</h2>
 
         <p>
             The internet gave us this amazing ability to communicate with people from all over the world, regardless of their location
@@ -308,9 +308,15 @@
 
         <h2>A better solution</h2>
 
+        <p>As with many problems in the world of tech, I think this one can be solved with the right software. Unfortunately, it doesn't exist yet.</p>
+
+        <p>So I'm going to build it.</p>
+
+        <p><strong>It's called Cognition.</strong></p>
+
         <p>
             Cognition is designed to make integrating assignments, feedback, and live interaction into your online course seamless, efficient,
-            and enjoyable..
+            and enjoyable.
         </p>
         <p>
             It works by taking all of the concepts we discussed above and merging them into one cohesive platform with features designed
@@ -325,7 +331,7 @@
                     send out a unique registration email to each student to set up their account. You can create as many
                     different courses and cohorts as you want, so if you have multiple cohorts of students going through
                     the course on different schedules, you can separate them out.</p>
-                <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
+                {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
             <div class="pb-16">
                 <h2 class="my-0 text-indigo font-sans">Step 2</h2>
@@ -337,7 +343,7 @@
                 </p>
                 <p>Would you rather have your students go through the course at their own pace, and give feedback individually
                     as it is submitted to you? <a href="#ondemand" class="text-indigo no-underline border-b-4 border-indigo hover:text-indigo-lighter hover:border-indigo-lighter transition-fast">Make your course an on demand course</a>.</p>
-                <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
+                {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
             <div class="pb-16">
                 <h2 class="my-0 text-indigo font-sans">Step 3</h2>
@@ -347,7 +353,7 @@
                     that form, or embed it inside the lesson of your online teaching platform. Students watch the lesson,
                     and then submit their assignments to you using the form you built.
                 </p>
-                <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
+                {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
             <div class="pb-16">
                 <h2 class="my-0 text-indigo font-sans">Step 4</h2>
@@ -358,7 +364,7 @@
                     and you can timestamp each feedback item, so that students can jump directly to their feedback when they
                     watch the recording.
                 </p>
-                <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
+                {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
             <div>
                 <h2 class="my-0 text-indigo font-sans">Step 5</h2>
@@ -367,7 +373,7 @@
                     The recording with feedback timestamps is automatically delivered to each student enrolled in the course after the call ends.
                     Students can then implement the provided feedback before starting work on the next assignment.
                 </p>
-                <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" />
+                {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
         </section>
         <section class="my-20" id="ondemand">
@@ -375,7 +381,7 @@
             <p>If you don't want to schedule out your course with different cohorts and scheduled live video calls, you can
                 make your course on demand.</p>
             <p>This option is best for people whose course is delivered passively, with students being able to take it at their
-                own pace.</p>
+                own pace, while still being able to offer personalized feedback.</p>
             <p>You will receive a notification whenever a student submits a new assignment, and can go directly to their assignment
                 to leave feedback in text or video form.</p>
             <p>The student will then get notified that you've given feedback and can implement it and move on to the next lesson.</p>
@@ -384,12 +390,10 @@
         </section>
         <section class="my-20 text-center">
             <p class="md:text-xl text-lg mb-4">
-                Cognition is currently in the early stages of design and development. If you’re interested in using it to help improve your
-                online courses, sign up to receive updates on the progress and opportunities for beta testing (and associated
-                discounts).
+                Cognition is currently in the early stages of design and development. If you’re interested in being a part of solving the online education problem, I'd love to have you on board.
             </p>
                 <a href="#signup" class="button hover:bg-blue-lighter transition-fast transition-property-bg inline-block">
-                    Sign Up
+                    Let's Do This
                 </a>
         </section>
         <section class="my-20">
@@ -427,9 +431,8 @@
         <div class="md:w-1/2 mx-auto">
             <p class="text-indigo-lightest text-lg md:text-xl">
                 Cognition is still in the very early stages of ideation and development, and I’m looking for frustrated course creators that
-                want a better way to teach online to help me flesh out the product and beta test it.</p>
-            <p class="text-indigo-lightest text-lg md:text-xl">If that’s you, enter your email below and I’ll be in touch soon (the real me, not an autoresponder) about what’s
-                next, how you can help, and what’s in it for you.
+                want to play a part in helping me create it.</p>
+            <p class="text-indigo-lightest text-lg md:text-xl">If that’s you, enter your email below and I’ll keep you in the loop about new developments as I design and build Cognition. No spam, pinky promise!
             </p>
             <form action="https://kenrogers.us14.list-manage.com/subscribe/post?u=93c5030a0f37ecd85d7a9d3d7&amp;id=c19b7d6e7a" method="post"
                 id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate md:flex" target="_blank" novalidate>
@@ -442,7 +445,7 @@
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -50000px;" aria-hidden="true"><input type="text" name="b_93c5030a0f37ecd85d7a9d3d7_c19b7d6e7a" tabindex="-1" value=""></div>
-                <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="bg-indigo hover:bg-indigo-light transition-fast transition-propery-bg text-white uppercase tracking-wide px-8 py-4 rounded md:rounded-l-none no-underline text-sm shadow-md font-semibold md:w-1/3">
+                <input type="submit" value="Sounds Good, I'm In!" name="subscribe" id="mc-embedded-subscribe" class="bg-indigo hover:bg-indigo-light transition-fast transition-propery-bg text-white uppercase tracking-wide px-8 py-4 rounded md:rounded-l-none no-underline text-sm shadow-md font-semibold md:w-1/3">
             </form>
         </div>
     </section>
