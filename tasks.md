@@ -1,7 +1,6 @@
 # Development
 
 -   Switch images to use Cloudinary
--   Integrate PurgeCSS
 -   Minify assets
 -   Set up Cloudflare
 -   Add enroll students feature
@@ -12,4 +11,5 @@
 -   Add feedback notification feature
 
 # Design
+
 -   Design is too minimal, needs more color

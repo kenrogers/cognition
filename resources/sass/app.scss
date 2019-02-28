@@ -64,7 +64,11 @@ h4 {
 }
 
 .button {
-    @apply bg-blue-light text-white uppercase tracking-wide px-8 py-4 rounded no-underline text-sm shadow-md font-semibold;
+    @apply bg-indigo text-white uppercase tracking-wide px-8 py-4 rounded no-underline text-sm shadow-md font-semibold;
+}
+
+.highlight {
+    @apply text-grey font-serif text-3xl mb-6 text-center leading-tight;
 }
 
 /**

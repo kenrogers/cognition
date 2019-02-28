@@ -1,10 +1,10 @@
 @extends('layouts.app') 
-@section('content')
-{{-- <nav class="flex justify-between px-10 pt-10 items-baseline">
+@section('content') {{--
+<nav class="flex justify-between px-10 pt-10 items-baseline">
     <h3 class="uppercase tracking-wide font-bold text-grey-darkest">Cognition</h3>
     <a class="text-indigo no-underline" href="/login">Login <i class="fa fa-chevron-right"></i></a>
 </nav> --}}
-<div id="landing-container" class="bg-no-repeat pt-10 text-grey-darkest max-w-full">
+<div id="landing-container" class="pt-10 max-w-full">
 
     <section class="max-w-md mx-auto px-5">
         <h1 class="mb-10 font-normal">
@@ -90,7 +90,7 @@
             This passive consumption model allowed anybody to reach an unlimited number of people with their content.
         </p>
 
-        <p class="text-grey font-serif text-3xl mb-6 text-center leading-tight">
+        <p class="highlight">
             But something got lost along the way.
         </p>
 
@@ -308,7 +308,8 @@
 
         <h2>A better solution</h2>
 
-        <p>As with many problems in the world of tech, I think this one can be solved with the right software. Unfortunately, it doesn't exist yet.</p>
+        <p>As with many problems in the world of tech, I think this one can be solved with the right software. Unfortunately,
+            it doesn't exist yet.</p>
 
         <p>So I'm going to build it.</p>
 
@@ -390,16 +391,17 @@
         </section>
         <section class="my-20 text-center">
             <p class="md:text-xl text-lg mb-4">
-                Cognition is currently in the early stages of design and development. If you’re interested in being a part of solving the online education problem, I'd love to have you on board.
+                Cognition is currently in the early stages of design and development. If you’re interested in being a part of solving the
+                online education problem, I'd love to have you on board.
             </p>
-                <a href="#signup" class="button hover:bg-blue-lighter transition-fast transition-property-bg inline-block">
+            <a href="#signup" class="button hover:bg-indigo-light transition-fast transition-property-bg inline-block">
                     Let's Do This
                 </a>
         </section>
         <section class="my-20">
             <h2>Who's behind this?</h2>
-            <img class=" max-w-full rotate-left md:w-1/2 sm:w-full mb-10 ml-0 border-white border-8 rounded shadow-md float-right md:ml-4 md:mb-4" src="images/family.jpg" alt="Ken Rogers"
-            />
+            <img class=" max-w-full rotate-left md:w-1/2 sm:w-full mb-10 ml-0 border-white border-8 rounded shadow-md float-right md:ml-4 md:mb-4"
+                src="images/family.jpg" alt="Ken Rogers" />
             <p>
                 My name is Ken Rogers. That's my wife Chelsea and son Joe with me.
             </p>
@@ -432,7 +434,8 @@
             <p class="text-indigo-lightest text-lg md:text-xl">
                 Cognition is still in the very early stages of ideation and development, and I’m looking for frustrated course creators that
                 want to play a part in helping me create it.</p>
-            <p class="text-indigo-lightest text-lg md:text-xl">If that’s you, enter your email below and I’ll keep you in the loop about new developments as I design and build Cognition. No spam, pinky promise!
+            <p class="text-indigo-lightest text-lg md:text-xl">If that’s you, enter your email below and I’ll keep you in the loop about new developments as I design and build
+                Cognition. No spam, pinky promise!
             </p>
             <form action="https://kenrogers.us14.list-manage.com/subscribe/post?u=93c5030a0f37ecd85d7a9d3d7&amp;id=c19b7d6e7a" method="post"
                 id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate md:flex" target="_blank" novalidate>

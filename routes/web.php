@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('pages.landing');
 });
 
+Route::get('/style', function () {
+    return view('pages.style');
+});
+
 Auth::routes();
