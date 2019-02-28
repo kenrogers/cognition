@@ -90,7 +90,7 @@
             This passive consumption model allowed anybody to reach an unlimited number of people with their content.
         </p>
 
-        <p class="text-grey font-serif text-3xl mb-6 text-center">
+        <p class="text-grey font-serif text-3xl mb-6 text-center leading-tight">
             But something got lost along the way.
         </p>
 
