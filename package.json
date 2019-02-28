@@ -26,6 +26,7 @@
         "vue-template-compiler": "^2.5.22"
     },
     "dependencies": {
-        "glhd-tailwindcss-transitions": "^0.3.0"
+        "glhd-tailwindcss-transitions": "^0.3.0",
+        "laravel-mix-purgecss": "^4.1.0"
     }
 }
