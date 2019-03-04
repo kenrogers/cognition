@@ -12,4 +12,7 @@
 
 # Design
 
--   Design is too minimal, needs more color
+-   Add indigo line to top of page
+-   Add icon, logo, illustration, emoji, or screenshot to top of page, maybe a small avatar of myself
+-   Proofread and shorten text
+-   Add patterned background to first CTA

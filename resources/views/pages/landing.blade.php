@@ -27,7 +27,7 @@
             Dave is a photographer. When he's not taking sweet photographs, Dave teaches an online course on photography.
         </p> --}}
         <p>
-            Your students don't seem to be very engaged in your new course course. It's too passive.
+            Your students don't seem to be very engaged in your new course. It's too passive.
         </p>
         <p>
             You made your videos and gave your students assignments to work on, but you felt like they needed more to be able to <em>really</em>            learn the subject matter.
@@ -210,8 +210,8 @@
 
         <p>
             But this process is difficult and time-consuming to execute. Having to combine different tools like Slack, Typeform, Zoom,
-            and email gets the job done, but it is a significant time-suck on the part of the instructore trying to keep
-            it all cohesive and organized, when that time would be better spend teaching.
+            and email gets the job done, but it is a significant time-suck on the part of the instructor trying to keep it
+            all cohesive and organized, when that time would be better spent teaching.
         </p>
 
         <p>It's also difficult for the students, as they have to interact and bounce back and forth between several tools while
@@ -362,17 +362,17 @@
                 <p>
                     When the student submits their assignment, it will be automatically added to the feedback queue in the order it was received
                     for you to review. When it's time to deliver the live call, the queue will be displayed in the interface,
-                    and you can timestamp each feedback item, so that students can jump directly to their feedback when they
-                    watch the recording.
+                    and you can deliver the live call using your favorite video conferencing software.
                 </p>
                 {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
             <div>
                 <h2 class="my-0 text-indigo font-sans">Step 5</h2>
-                <h3 class="mb-4">Recording Delivered</h3>
+                <h3 class="mb-4">Maintenance</h3>
                 <p>
-                    The recording with feedback timestamps is automatically delivered to each student enrolled in the course after the call ends.
-                    Students can then implement the provided feedback before starting work on the next assignment.
+                    Cognition keeps track of who has submitted assignments and what stage everyone is at in the course. You can view all of this
+                    data at a glance from the dashboard, or view the data for individual students and cohorts to see where
+                    everyone is at.
                 </p>
                 {{-- <img class="rounded shadow-md" src="images/screenshot.png" alt="Placeholder" /> --}}
             </div>
@@ -389,8 +389,8 @@
             <p>This workflow allows students to take the course on their own schedule, while still utilizing a feedback loop
                 that facilitates effective learning.</p>
         </section>
-        <section class="my-20 text-center">
-            <p class="md:text-xl text-lg mb-4">
+        <section class="my-20 text-center bg-indigo-lightest p-6 rounded shadow-lg cta">
+            <p class="md:text-xl text-lg mb-4 text-shadow">
                 Cognition is currently in the early stages of design and development. If you’re interested in being a part of solving the
                 online education problem, I'd love to have you on board.
             </p>
@@ -429,7 +429,7 @@
             <p>That’s why I’m building Cognition.</p>
         </section>
     </section>
-    <section class="bg-indigo-darkest w-full py-32 px-5" id="signup">
+    <section class="main-cta w-full py-32 px-5" id="signup">
         <div class="md:w-1/2 mx-auto">
             <p class="text-indigo-lightest text-lg md:text-xl">
                 Cognition is still in the very early stages of ideation and development, and I’m looking for frustrated course creators that
